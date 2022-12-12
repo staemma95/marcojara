@@ -17,7 +17,7 @@ date_default_timezone_set("America/Santiago");
 echo "La fecha de hoy es : " . date("m/d/Y") . "<br>";
 echo " La hora es: " . date( "H:i:sa"). "<br>";
 class misdatos{
-  public static $maj = "Marco Antonio Jara y victor";
+  public static $maj = "Marco Antonio Jara, victor and Joaquin";
   public static $asg = "Administracion de Servicios Web";
 }
 echo "Yo Soy " .misdatos::$maj."<br>";
